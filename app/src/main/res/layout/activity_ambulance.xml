@@ -1,0 +1,1545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scroll"
+    tools:context=".Ambulance"
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_marginLeft="-15dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="60dp"
+            android:layout_width="match_parent"
+            android:src="@drawable/title"
+            />
+
+        <TableRow
+
+            android:id="@+id/HospitalName1"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="200dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Ad-din Women’s Medical College Hospital"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone1"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/nuevastdbold"
+                android:text="@string/phone1"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="200dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Apollo Hospitals Dhaka Plot-81, Block-E, Basundhara R/A, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone2"
+                android:layout_width="160dp"
+                android:autoLink="phone"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/nuevastdbold"
+                android:text="@string/phone2"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:text="Al-Markazul Islam Ambulance Service, Dhaka"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone3"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="0dp"
+                android:fontFamily="@font/nuevastdbold"
+                android:text="@string/phone3"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Anju-Man--E--Mafidul, Kakrail, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone4"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:paddingLeft="0dp"
+                android:fontFamily="@font/nuevastdbold"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone4"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Alif Ambulance Service, West Panthapath,Dhaka-1215"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone5"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:paddingLeft="0dp"
+                android:fontFamily="@font/nuevastdbold"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone5"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="BIRDEM , Shahbagh , Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone6"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/nuevastdbold"
+                android:text="@string/phone6"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="BNSB, Dhaka Eye Hospital Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone7"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="0dp"
+                android:text="@string/phone7"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="BSMMU (PG Hospital), Shahabag, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone8"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="0dp"
+                android:text="@string/phone8"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Central Hospital"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone9"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="0dp"
+                android:text="@string/phone9"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Combined Military Hospital
+                (CMH), Dhaka Cantonment"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone10"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone10"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Criticare EMS, Green Road. Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone11"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/nuevastdbold"
+                android:text="@string/phone11"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Day Night Ambulance,Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone12"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone12"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Dhaka Medical College Hospital (DMCH)"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone13"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone13"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName14"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Desh Ambulance Service"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone14"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone14"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName15"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Dhaka Shishu Hospital Sher-E-Bangla Nagar, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone15"
+                android:layout_width="181dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="0dp"
+                android:text="@string/phone15"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName16"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Dip Clinic  Diagnostic Centre,
+                Savar, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone16"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="0dp"
+                android:text="@string/phone16"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName17"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Fire Service Ambulance"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone17"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="0dp"
+                android:text="@string/phone17"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName18"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Green Ambulance, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone18"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone18"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName19"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Holy Family Medical College and Hospital, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone19"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone19"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName20"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Ibrahim Cardiac Hospital and Research Institute,Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone20"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone20"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName21"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Islami Bank Central Hospital, Kakrail ,Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone21"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone21"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName22"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Islami Bank Hospital, Motijheel ,Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone22"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone22"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName23"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Islami Bank Hospital, Mirpur ,Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone23"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone23"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName24"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="ICDDRB (Cholera Hospital)Mohakhali, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone24"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone24"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName25"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="IPSSL Group, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone25"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone25"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName26"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Life Line Health Care Ltd,
+                Lalmatia, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone26"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone26"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName26a"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Labaid Cardiac Hospital,
+                Mirpur Rd Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone26a"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone26a"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName27"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Monowara Hospital (Pvt.) Ltd.  Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone27"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone27"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName28"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="MH Samorita Hospital and
+                Medical College, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone28"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone128"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName29"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Medinova Medical Service Ltd. For Air Ambulance - MAF Sweden Air Support, DOHS, Baridhara, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone29"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone29"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName30"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Metro Ambulance Service, Dhanmondi, Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone30"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone30"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName31"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="National Heart Institute,
+                Green Rd Dhaka"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone31"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:text="@string/phone31"
+                android:textColor="#6C93AB"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName33"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Square Hospital, Dhaka "
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone33"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:text="@string/phone33"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName34"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Shaheed Suhrawardy Medical College and Hospital, Dhaka "
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone34"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:text="@string/phone34"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName35"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="S.Ambulance Samorita Hospital, Panthapath, Dhaka "
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone35"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:text="@string/phone35"
+                android:textColor="#6C93AB"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName36"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="Shefa Ambulance Service, Dhaka "
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone36"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:text="@string/phone36"
+                android:textColor="#6C93AB"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+
+        <TableRow
+
+            android:id="@+id/HospitalName37"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:text="South Asian Hospital, Dhaka "
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone37"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:text="@string/phone37"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName32"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Red Crescent Society, Boro Moghbazar, Dhaka "
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone32"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:text="@string/phone32"
+                android:textColor="#6C93AB"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+        <TableRow
+
+            android:id="@+id/HospitalName38"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/shape">
+
+            <TextView
+                android:layout_width="250dp"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="10dp"
+                android:layout_gravity="center"
+                android:text="Uttarbango Ambulance Service
+                94, Sankar, Dhaka "
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:id="@+id/phone38"
+                android:layout_width="150dp"
+                android:autoLink="phone"
+                android:fontFamily="@font/nuevastdbold"
+                android:paddingLeft="0dp"
+                android:text="@string/phone38"
+                android:textColor="#6C93AB"
+                android:layout_marginLeft="0dp"
+                android:layout_gravity="center_vertical"
+                android:textColorLink="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
